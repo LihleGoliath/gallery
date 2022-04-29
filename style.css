@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./programming-gb08093c96_1920.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #ffffff;
+    width: 1250px;
+    height: 500px;
+    display: flex;
+    justify-content:flex-start;
+align-items: center;
+    margin-top: 150px;
+
+
+}
+#font{
+    width: 200px;
+    height: 200px;
+    margin-left: ;
+}
+img{
+    position: relative;
+    object-fit:cover;
+    z-index: 100;
+}
