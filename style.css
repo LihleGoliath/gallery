@@ -4,19 +4,62 @@
     box-sizing: border-box;
 }
 body{
-    background: url(./programming-gb08093c96_1920.jpg);
+   overflow:hidden ;
+   overflow-y: scroll;
+   padding-top: 0;
+   padding-bottom: 0;
+   height: 100%;
+}
+section:nth-last-of-type(even){
+    background-color: #f1f1ef;
+}
+/* main-page */
+#header{
+    position: absolute;
+    background:rgba(0, 0,0, 0.0);
+    border:none;
+    width: 100%;
+
+    
+}
+#landing{
+    background: url(./gallery-images/pen-4163403_960_720.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: 0,0; 
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    text-shadow:100deg 13px 8px rgba( 150, 151, 151 1) ;
+}
+.text{
+    color:#b1035e;
+}
+/* quote-main-page */
+#quote{
+    height: 30vh;
+}
+/* fonts-main-page */
+.font-img{
+    height: auto;
 }
 .box{
-    background-color: #ffffff;
-    width: 1250px;
-    height: 500px;
+    
+    width: ;
+    height: ;
     display: flex;
     justify-content:flex-start;
 align-items: center;
-    margin-top: 150px;
+    margin-top: ;
 
 
 }
